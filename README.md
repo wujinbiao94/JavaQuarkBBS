@@ -95,3 +95,9 @@
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+    
+##导入项目修改地方
+ 1.quark-parent pom中编译的插件版本1.5不行
+     <properties>标签下添加如下配置
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
