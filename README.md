@@ -101,3 +101,11 @@
      <properties>标签下添加如下配置
      <maven.compiler.source>1.8</maven.compiler.source>
      <maven.compiler.target>1.8</maven.compiler.target>
+     
+ 2.下载nginx打开配置文件nginx.conf配置图片服务器
+        修改root为如下路径图片能够正常显示
+        location / {
+             root   D:\home;
+             index  index.html index.htm;
+         }
+
